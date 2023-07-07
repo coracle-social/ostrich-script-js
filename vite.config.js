@@ -12,7 +12,7 @@ module.exports = defineConfig({
     lib: {
       entry: path.resolve(__dirname, "lib/index.ts"),
       fileName: (format) => `index.${format}.js`,
-      name: "@yuigoto/vite-library-template",
+      name: "coracle-social/ostrich-script-js",
     },
     rollupOptions: {
       plugins: [
